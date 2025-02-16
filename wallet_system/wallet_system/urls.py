@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 from django.urls import path
-from wallet import views
+from wallet_system.wallet_system import views
 from .views import register, user_login, user_logout, dashboard, add_money, transfer_money # type: ignore
 
 urlpatterns = [
